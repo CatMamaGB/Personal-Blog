@@ -1,0 +1,25 @@
+.header-controls {
+    margin: 1rem 0;
+}
+
+#posts-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.post {
+    border: 1px solid var(--text-color);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post-meta {
+    font-style: italic;
+    color: #666;
+} 
