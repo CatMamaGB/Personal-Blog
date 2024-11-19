@@ -1,0 +1,85 @@
+/* Form Container */
+.form-container {
+  max-width: 800px;
+  margin: var(--spacing-xl) auto;
+  padding: var(--spacing-xl);
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: var(--spacing-sm);
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* Form Inputs */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+/* Title Input */
+#title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Content Textarea */
+#content {
+  min-height: 200px;
+  resize: vertical;
+}
+
+/* Form Actions */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-xl);
+}
+
+/* Submit Button */
+#submitPost {
+  background-color: var(--secondary-color);
+  padding: var(--spacing-sm) var(--spacing-xl);
+  font-size: 1.1rem;
+}
+
+/* Preview Section */
+#preview {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--card-bg);
+}
+
+#preview.hidden {
+  display: none;
+}
+
+.preview-title {
+  color: var(--text-color);
+  margin-bottom: var(--spacing-md);
+} 
